@@ -1,0 +1,28 @@
+﻿{
+    "rs": {
+        "user": {
+            "token_secret": "T$mp1234"
+        },
+        "data": {
+            "conn": {
+                "default": {
+                    "host": "localhost",
+                    "port": "1433",
+                    "user": "develop",
+                    "password": "T$mp1234",
+                    //"database": "rs_users",
+                    "database":"ezzo_dev",
+                    "pool": {
+                        "max": 10,
+                        "min": 4,
+                        "idleTimeoutMillis": 30000
+                    }
+                }
+            }
+        }
+    },
+    "app": {
+        "version": "0.1.0",
+        "data_path":"S:\\Rumsan\\binod\\projects\\edushala\\website\\localdata"
+    }
+}

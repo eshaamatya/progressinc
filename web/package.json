@@ -1,0 +1,20 @@
+{
+  "name": "rs.nodejs-template",
+  "version": "0.1.0",
+  "description": "Rumsan Node JS Template",
+  "main": "app.js",
+  "author": {
+    "name": "Santosh Shrestha",
+    "company": "Rumsan Associates"
+  },
+  "dependencies": {
+    "body-parser": "~1.8.1",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.0.0",
+    "ejs": "^2.5.2",
+    "express": "~4.9.0",
+    "express-mung": "^0.4.4",
+    "morgan": "~1.3.0",
+    "rs": "git+ssh://@git.rumsan.net:rs/node.git"
+  }
+}
